@@ -1,2 +1,8 @@
 # Graph-visualizer
 Build "GRAPH VISUALIZER" as GUI based project using C++ and DSA concepts
+
+This Graph Visualizer program is a C++ project that uses the WinBGIm graphics library to create an interactive graphical interface for visualizing graph data structures and traversal algorithms. It allows users to add nodes, connect them with edges, delete nodes, and visualize BFS and DFS traversals dynamically. The interface includes labeled buttons for user interaction, node highlighting, directional arrows for directed graphs, and edge weights for weighted graphs. Users can input whether the graph should be weighted or directed, ensuring flexibility in graph types. A visual popup box is also used for entering edge weights, and the GUI remains active in the foreground for seamless user experience.
+
+The project utilizes multiple Data Structures and Algorithms (DSA) concepts. It implements the graph data structure using an adjacency list, represented by a vector of vectors of pairs. The program also uses stacks for the Depth First Search (DFS) algorithm and queues for the Breadth First Search (BFS) algorithm. Each node is stored as an object of the Node structure, which holds position, label, and visited status information. The project further applies concepts of recursion, iteration, and graph traversal algorithms, making it a strong demonstration of DSA in an interactive visual form.
+
+Overall, this project combines graphical user interface programming with classic data structures and algorithms to create an engaging tool for understanding how graphs and their traversals work in real time.
